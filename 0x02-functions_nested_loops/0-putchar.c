@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints Holberton
+ * main - prints putchar
  *
- * Description: prints Holberton
+ * Description: prints putchar
  *
  * Return: 0 (Success)
  */
