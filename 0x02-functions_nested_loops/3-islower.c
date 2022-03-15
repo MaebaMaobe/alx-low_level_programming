@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks whether is lower or not
- * ASCII characters
+ * @c:ASCII characters
  *
  * Return: 0 if it is not, 1 if it is lower.
  */
