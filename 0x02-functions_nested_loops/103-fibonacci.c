@@ -1,27 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of even fibonaccis
+ * main - print sum of all even fibonacci numbers under 4x10^6
  *
- * Return: 0
+ * Return: Nothing.
  */
+
 int main(void)
 {
-	long int n1, n2, fn, afn;
+	unsigned long x, y, z, sum;
 
-	n1 = 1;
-	n2 = 2;
-	fn = afn = 0;
-	while (fn <= 4000000)
+	z = 0;
+	x = 0;
+	y = 1;
+	sum = 0;
+
+	while (z < 4000000)
 	{
-		fn = n1 + n2;
-		n1 = n2;
-		n2 = fn;
-		if ((n1 % 2) == 0)
-		{
-			afn += n1;
-		}
+		z = x + y;
+		x = y;
+		y = z;
+
+		if (z % 2 == 0)
+			sum += z;
 	}
-	printf("%ld\n", afn);
+
+	printf("%lu\n", sum);
 	return (0);
 }
