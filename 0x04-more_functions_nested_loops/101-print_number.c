@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * power - exponentials
+ * power - exponents
  * @base: base
  * @exp: exponent
  * Return: result (int)
