@@ -1,1 +1,1 @@
-Second task on pointers, arrays and strings
+Second task on pointers, Arrays and Strings
