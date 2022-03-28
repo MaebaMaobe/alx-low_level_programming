@@ -1,2 +1,2 @@
-Project deals with pointers to pointers, multidimensional arrays and the most common C library functions to manipulate strings
+Project deals with p to p, multidimensional arrays and common C library functions to manipulate strings
 
