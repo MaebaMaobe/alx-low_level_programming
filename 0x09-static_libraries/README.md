@@ -1,0 +1,1 @@
+Tasks cover static libraries
